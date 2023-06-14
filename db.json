@@ -1,5 +1,18 @@
 {
-  "users": [{"id": 1, "name": "Myra"}],
+  "users": [
+    {
+      "id": 1,
+      "name": "Myra"
+    },
+    {
+      "name": "Keith Bogisich",
+      "id": 6
+    },
+    {
+      "name": "Ana Kerluke-McGlynn",
+      "id": 7
+    }
+  ],
   "albums": [],
   "photos": []
 }
