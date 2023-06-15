@@ -5,9 +5,6 @@ A
 postcss.config.js,3/f/3f70684581fd16ab3be77ca959e0138ef3ee8bfb
 =
 src/index.css,c/5/c5d38a62d1faae90a2acaa34b79a7ef365c917e4
-:
-
-src/App.js,1/e/1e43fa63aecd2127be034b3fb9d4caa172275714
 A
 package-lock.json,f/a/fa288d1472d29beccb489a676f68739ad365fc47
 <
