@@ -1,54 +1,23 @@
 {
   "users": [
     {
-      "id": 1,
-      "name": "Myra Thiel"
-    },
-    {
-      "name": "Keith Bogisich",
-      "id": 6
-    },
-    {
       "name": "Ana Kerluke-McGlynn",
       "id": 7
+    },
+    {
+      "name": "Sadie Abbott",
+      "id": 8
+    },
+    {
+      "name": "Jonathon Conroy",
+      "id": 9
+    },
+    {
+      "name": "Angie Schmeler",
+      "id": 10
     }
   ],
   "albums": [
-    {
-      "id": 10,
-      "title": "Hiking Trip",
-      "userId": 1
-    },
-    {
-      "userId": 1,
-      "title": "Generic Cotton Bacon",
-      "id": 11
-    },
-    {
-      "userId": 1,
-      "title": "Bespoke Fresh Computer",
-      "id": 12
-    },
-    {
-      "userId": 1,
-      "title": "Unbranded Concrete Fish",
-      "id": 13
-    },
-    {
-      "userId": 6,
-      "title": "Recycled Granite Car",
-      "id": 14
-    },
-    {
-      "userId": 7,
-      "title": "Small Concrete Computer",
-      "id": 15
-    },
-    {
-      "userId": 6,
-      "title": "Generic Cotton Shoes",
-      "id": 16
-    },
     {
       "userId": 7,
       "title": "Practical Soft Soap",
@@ -60,19 +29,44 @@
       "id": 18
     },
     {
-      "userId": 1,
-      "title": "Recycled Frozen Bike",
-      "id": 19
-    },
-    {
-      "userId": 1,
-      "title": "Small Fresh Chair",
+      "userId": 8,
+      "title": "Small Frozen Tuna",
       "id": 20
     },
     {
-      "userId": 1,
-      "title": "Oriental Frozen Shirt",
+      "userId": 8,
+      "title": "Refined Cotton Gloves",
       "id": 21
+    },
+    {
+      "userId": 9,
+      "title": "Licensed Frozen Bike",
+      "id": 22
+    },
+    {
+      "userId": 9,
+      "title": "Recycled Concrete Bike",
+      "id": 23
+    },
+    {
+      "userId": 9,
+      "title": "Handmade Soft Bacon",
+      "id": 24
+    },
+    {
+      "userId": 10,
+      "title": "Sleek Plastic Towels",
+      "id": 25
+    },
+    {
+      "userId": 10,
+      "title": "Awesome Metal Ball",
+      "id": 26
+    },
+    {
+      "userId": 10,
+      "title": "Generic Metal Sausages",
+      "id": 27
     }
   ],
   "photos": []
