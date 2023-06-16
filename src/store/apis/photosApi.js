@@ -1,4 +1,5 @@
 import {createApi, fetchBaseQuery} from "@reduxjs/toolkit/query/react";
+import {faker} from "@faker-js/faker";
 
 const photosApi = createApi({
     reducerPath: 'photos',
@@ -7,9 +8,57 @@ const photosApi = createApi({
     }),
     endpoints(builder) {
         return {
-            fetchPhotos: builder.query({}),
-            addPhoto: builder.mutation({}),
-            removePhoto: builder.mutation({})
+            fetchPhotos: builder.query({
+                providesTags: (result, error, album) => {
+                    const tags = result.map(photo => {
+                        return { type: 'Photo', id: photo.id }
+                    });
+                    tags.push({ type: 'AlbumPhoto', id: album.id});
+                    return tags;
+                },
+                query: (album) => {
+                    return {
+                        url: '/photos',
+                        params: {
+                            albumID: album.id
+                        },
+                        method: 'GET'
+                    };
+                }
+            }),
+            addPhoto: builder.mutation({
+                invalidatesTags: (result, error, album ) => {
+                    return [{type: 'AlbumPhoto', id: album.id}];
+                },
+                query: (album) => {
+                    return {
+                        method: 'POST',
+                        url: '/photos',
+                        body: {
+                            albumID: album.id,
+                            url: faker.image.abstract(150, 150, true)
+                        }
+                    };
+                }
+            }),
+            removePhoto: builder.mutation({
+                invalidatesTags: (result, error, photo) => {
+                    return [{ type: 'Photo', id: photo.id}];
+                },
+                query: (photo) => {
+                    return {
+                        method: 'DELETE',
+                        url: `/photos/${photo.id}`
+                    };
+                }
+            })
         };
     }
 });
+
+export const {
+    useFetchPhotosQuery,
+    useAddPhotoMutation,
+    useRemovePhotoMutation
+} = photosApi;
+export { photosApi };
