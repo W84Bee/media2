@@ -63,6 +63,16 @@
       "userId": 1,
       "title": "Recycled Frozen Bike",
       "id": 19
+    },
+    {
+      "userId": 1,
+      "title": "Small Fresh Chair",
+      "id": 20
+    },
+    {
+      "userId": 1,
+      "title": "Oriental Frozen Shirt",
+      "id": 21
     }
   ],
   "photos": []
