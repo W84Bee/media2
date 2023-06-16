@@ -1,5 +1,124 @@
 {
-  "users": [],
-  "albums": [],
-  "photos": []
+  "users": [
+    {
+      "name": "Ana Kerluke-McGlynn",
+      "id": 7
+    },
+    {
+      "name": "Sadie Abbott",
+      "id": 8
+    },
+    {
+      "name": "Jonathon Conroy",
+      "id": 9
+    },
+    {
+      "name": "Angie Schmeler",
+      "id": 10
+    }
+  ],
+  "albums": [
+    {
+      "userId": 7,
+      "title": "Practical Soft Soap",
+      "id": 17
+    },
+    {
+      "userId": 7,
+      "title": "Luxurious Metal Tuna",
+      "id": 18
+    },
+    {
+      "userId": 8,
+      "title": "Small Frozen Tuna",
+      "id": 20
+    },
+    {
+      "userId": 8,
+      "title": "Refined Cotton Gloves",
+      "id": 21
+    },
+    {
+      "userId": 9,
+      "title": "Licensed Frozen Bike",
+      "id": 22
+    },
+    {
+      "userId": 9,
+      "title": "Recycled Concrete Bike",
+      "id": 23
+    },
+    {
+      "userId": 9,
+      "title": "Handmade Soft Bacon",
+      "id": 24
+    },
+    {
+      "userId": 10,
+      "title": "Sleek Plastic Towels",
+      "id": 25
+    },
+    {
+      "userId": 10,
+      "title": "Awesome Metal Ball",
+      "id": 26
+    },
+    {
+      "userId": 10,
+      "title": "Generic Metal Sausages",
+      "id": 27
+    }
+  ],
+  "photos": [
+    {
+      "albumID": 20,
+      "url": "https://loremflickr.com/150/150/abstract?lock=23805093216256",
+      "id": 1
+    },
+    {
+      "albumID": 20,
+      "url": "https://loremflickr.com/150/150/abstract?lock=526141324525568",
+      "id": 2
+    },
+    {
+      "albumID": 20,
+      "url": "https://loremflickr.com/150/150/abstract?lock=5711561970679808",
+      "id": 4
+    },
+    {
+      "albumID": 17,
+      "url": "https://loremflickr.com/150/150/abstract?lock=7426807475208192",
+      "id": 5
+    },
+    {
+      "albumID": 17,
+      "url": "https://loremflickr.com/150/150/abstract?lock=6909293890633728",
+      "id": 6
+    },
+    {
+      "albumID": 17,
+      "url": "https://loremflickr.com/150/150/abstract?lock=559560603467776",
+      "id": 8
+    },
+    {
+      "albumID": 17,
+      "url": "https://loremflickr.com/150/150/abstract?lock=7525473225539584",
+      "id": 9
+    },
+    {
+      "albumID": 17,
+      "url": "https://loremflickr.com/150/150/abstract?lock=363794131845120",
+      "id": 10
+    },
+    {
+      "albumID": 17,
+      "url": "https://loremflickr.com/150/150/abstract?lock=6749937521917952",
+      "id": 11
+    },
+    {
+      "albumID": 17,
+      "url": "https://loremflickr.com/150/150/abstract?lock=5525767261782016",
+      "id": 12
+    }
+  ]
 }
