@@ -28,6 +28,36 @@
       "userId": 1,
       "title": "Bespoke Fresh Computer",
       "id": 12
+    },
+    {
+      "userId": 1,
+      "title": "Unbranded Concrete Fish",
+      "id": 13
+    },
+    {
+      "userId": 6,
+      "title": "Recycled Granite Car",
+      "id": 14
+    },
+    {
+      "userId": 7,
+      "title": "Small Concrete Computer",
+      "id": 15
+    },
+    {
+      "userId": 6,
+      "title": "Generic Cotton Shoes",
+      "id": 16
+    },
+    {
+      "userId": 7,
+      "title": "Practical Soft Soap",
+      "id": 17
+    },
+    {
+      "userId": 7,
+      "title": "Luxurious Metal Tuna",
+      "id": 18
     }
   ],
   "photos": []

@@ -9,8 +9,7 @@ export const store = configureStore({
         [albumsApi.reducerPath]: albumsApi.reducer
     },
     middleware: (getDefaultMiddleware) => {
-        return getDefaultMiddleware()
-            .concat(albumsApi.middleware);
+        return getDefaultMiddleware().concat(albumsApi.middleware);
     }
 });
 
